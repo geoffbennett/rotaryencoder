@@ -21,4 +21,4 @@ Rotating counter-clockwise:
 In counter-clockwise rotation, the data pulse happens first, then the clock pulse. In the above trace, the yellow probe is connected to the clock pin, and the green probe is connected to the data pin.
 
 ## Reading the encoder
-As a non-deterministic input method, I think this is going to need to use IO pins that can trigger an interrup, then an ISV is going to be needed to track the state of the pins.
+As a non-deterministic input method, I think this is going to need to use IO pins that can trigger an interrupt, then an ISV is going to be needed to track the state of the pins.
